@@ -6,7 +6,7 @@ from zedcv2 import Camera
 
 zed = Camera()
     zed.set_resolution("2K")    # "2K", "1080p", "720p", "WVGA"
-    zed.set_eye("left")         # "left:, "right", "both"
+    zed.set_eye("left")         # "left", "right", "both"
 
     while(True):
         # Capture frame-by-frame
