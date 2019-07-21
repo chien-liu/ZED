@@ -1,7 +1,7 @@
 # ZED
 
-## Use ZED with purely opencv
-```
+## Using ZED with purely opencv
+```python
 from zedcv2 import Camera
 
 zed = Camera()
