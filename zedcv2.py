@@ -77,7 +77,7 @@ if __name__ == "__main__":
         # Capture frame-by-frame
         frame = zed.retrieve_image()
 
-        # # Display the resulting frame
+        # Display the resulting frame
         cv2.imshow('frame',frame)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
